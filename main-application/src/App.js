@@ -1,23 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import dsa1 from "../src/assets/ytimages/yt/dsa1.jpg";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <h1>Yash Ashok Gokakkar</h1>
+      const slider = [{<img href={dsa1}></img>},{<image></image>},{<image></image>}]
     </div>
   );
 }
